@@ -17,6 +17,19 @@ img {
     margin: 15px auto;
 }
 
+.lb-data .lb-details {
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lb-data .lb-close {
+    margin-top: 25px;
+}
+
+.lightboxOverlay {
+    background-color: #134f5c;
+}
+
 /* TABLET STYLING */
 @media (min-width: 768px) {
     
@@ -51,5 +64,9 @@ img {
     
     .container {
         max-width: 1024px;
+    }
+
+    .lb-data .lb-caption {
+        font-size: 16px;
     }
 }
