@@ -1,7 +1,12 @@
+// Lightbox jQuery Plug-in Settings
+
 lightbox.option({
     'alwaysShowNavOnTouchDevices': true,
     'showImageNumberLabel': false
   })
+
+// Search Filter Function: takes user search input to see if it matches the 'data-title' attr value or the 'data-alt' attr value, 
+// Photos are displayed or hidden based on input
 
 $('#filter').on('keyup', function (event) {
     var srchStr = $(this).val().toLowerCase();
